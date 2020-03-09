@@ -1,0 +1,41 @@
+﻿  AsciiTetris.cpp
+g:\github repos\asciitetris\asciitetris\include\consolewindow.h(297): warning C4018: '<': signed/unsigned mismatch
+g:\github repos\asciitetris\asciitetris\include\consolewindow.h(299): warning C4018: '<': signed/unsigned mismatch
+g:\github repos\asciitetris\asciitetris\include\consolewindow.h(300): warning C4018: '<': signed/unsigned mismatch
+g:\github repos\asciitetris\asciitetris\include\settings.h(12): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\github repos\asciitetris\asciitetris\include\defaults.h(15): warning C4091: 'static ': ignored on left of 'SYDEDefaults' when no variable is declared
+g:\github repos\asciitetris\asciitetris\asciitetris\debugwindow.h(12): warning C4018: '>=': signed/unsigned mismatch
+g:\github repos\asciitetris\asciitetris\asciitetris\asciitetris.cpp(89): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  TetriSYDE.cpp
+g:\github repos\asciitetris\asciitetris\include\consolewindow.h(297): warning C4018: '<': signed/unsigned mismatch
+g:\github repos\asciitetris\asciitetris\include\consolewindow.h(299): warning C4018: '<': signed/unsigned mismatch
+g:\github repos\asciitetris\asciitetris\include\consolewindow.h(300): warning C4018: '<': signed/unsigned mismatch
+g:\github repos\asciitetris\asciitetris\include\settings.h(12): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\github repos\asciitetris\asciitetris\include\defaults.h(15): warning C4091: 'static ': ignored on left of 'SYDEDefaults' when no variable is declared
+g:\github repos\asciitetris\asciitetris\asciitetris\tetrisyde.cpp(15): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\github repos\asciitetris\asciitetris\asciitetris\tetrisyde.cpp(22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\github repos\asciitetris\asciitetris\asciitetris\tetrisyde.cpp(33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\github repos\asciitetris\asciitetris\asciitetris\tetrisyde.cpp(57): warning C4018: '<': signed/unsigned mismatch
+g:\github repos\asciitetris\asciitetris\asciitetris\tetrisyde.cpp(58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\github repos\asciitetris\asciitetris\asciitetris\tetrisyde.cpp(91): warning C4018: '<': signed/unsigned mismatch
+g:\github repos\asciitetris\asciitetris\asciitetris\tetrisyde.cpp(92): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\github repos\asciitetris\asciitetris\asciitetris\tetrisyde.cpp(314): warning C4018: '<': signed/unsigned mismatch
+g:\github repos\asciitetris\asciitetris\asciitetris\tetrisyde.cpp(322): warning C4018: '<': signed/unsigned mismatch
+g:\github repos\asciitetris\asciitetris\asciitetris\tetrisyde.cpp(344): warning C4018: '>=': signed/unsigned mismatch
+g:\github repos\asciitetris\asciitetris\asciitetris\tetrisyde.cpp(352): warning C4018: '<': signed/unsigned mismatch
+g:\github repos\asciitetris\asciitetris\asciitetris\tetrisyde.cpp(360): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
+g:\github repos\asciitetris\asciitetris\asciitetris\tetrisyde.cpp(370): warning C4018: '<': signed/unsigned mismatch
+g:\github repos\asciitetris\asciitetris\asciitetris\tetrisyde.cpp(371): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
+g:\github repos\asciitetris\asciitetris\asciitetris\tetrisyde.cpp(379): warning C4018: '<': signed/unsigned mismatch
+LINK : warning C4727: PCH named g:\github repos\custom-console\drawableconsole\release\sydeengine.pch with same timestamp found in g:\github repos\custom-console\drawableconsole\release\sydekey.obj and g:\github repos\custom-console\drawableconsole\release\sydegameplay.obj.  Using first PCH.
+LINK : warning C4727: PCH named g:\github repos\custom-console\drawableconsole\release\sydeengine.pch with same timestamp found in g:\github repos\custom-console\drawableconsole\release\sydelabel.obj and g:\github repos\custom-console\drawableconsole\release\sydekeycode.obj.  Using first PCH.
+LINK : warning C4727: PCH named g:\github repos\custom-console\drawableconsole\release\sydeengine.pch with same timestamp found in g:\github repos\custom-console\drawableconsole\release\vector2.obj and g:\github repos\custom-console\drawableconsole\release\sydetime.obj.  Using first PCH.
+LINK : warning C4727: PCH named g:\github repos\custom-console\drawableconsole\release\sydeengine.pch with same timestamp found in g:\github repos\custom-console\drawableconsole\release\textitem.obj and g:\github repos\custom-console\drawableconsole\release\sydetime.obj.  Using first PCH.
+LINK : warning C4727: PCH named g:\github repos\custom-console\drawableconsole\release\sydeengine.pch with same timestamp found in g:\github repos\custom-console\drawableconsole\release\assetsclass.obj and g:\github repos\custom-console\drawableconsole\release\artwork.obj.  Using first PCH.
+LINK : warning C4727: PCH named g:\github repos\custom-console\drawableconsole\release\sydeengine.pch with same timestamp found in g:\github repos\custom-console\drawableconsole\release\customasset.obj and g:\github repos\custom-console\drawableconsole\release\customanimationasset.obj.  Using first PCH.
+  Generating code
+  15 of 1180 functions ( 1.3%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    7 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  AsciiTetris.vcxproj -> G:\Github Repos\AsciiTetris\AsciiTetris\Release\AsciiTetris.exe
