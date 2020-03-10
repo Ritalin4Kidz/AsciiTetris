@@ -4,9 +4,10 @@
 
 TetriSYDE::TetriSYDE()
 {
+	AssignState(std::bind(&TetriSYDE::MainGame, this, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3));
 }
 
-ConsoleWindow TetriSYDE::window_draw_game(ConsoleWindow window, int windowWidth, int windowHeight)
+ConsoleWindow TetriSYDE::MainGame(ConsoleWindow window, int windowWidth, int windowHeight)
 {
 	for (int l = 0; l < 30; l++)
 	{
@@ -117,6 +118,18 @@ TetriSYDEPiece TetriSYDE::returnRandPiece()
 	default:
 		return Square;
 	}
+}
+
+ConsoleWindow TetriSYDE::MainMenu(ConsoleWindow window, int windowWidth, int windowHeight)
+{
+	for (int l = 0; l < 30; l++)
+	{
+		for (int m = 0; m < windowHeight; m++)
+		{
+			window.setTextAtPoint(Vector2(l, m), " ", BLACK);
+		}
+	}
+	return window;
 }
 
 TetriSYDEBlock::TetriSYDEBlock(TetriSYDEPiece piece)
@@ -396,5 +409,11 @@ void TetriSYDE::GridCheck()
 		}
 	}
 	score += (100 * bonus);
+}
+
+ConsoleWindow TetriSYDE::window_draw_game(ConsoleWindow window, int windowWidth, int windowHeight)
+{
+	window = DoState(window, windowWidth, windowHeight);
+	return window;
 }
 

@@ -74,6 +74,15 @@ public:
 	void GridCheck();
 	ConsoleWindow window_draw_game(ConsoleWindow window, int windowWidth, int windowHeight) override;
 	TetriSYDEPiece returnRandPiece();
+
+	ConsoleWindow MainGame(ConsoleWindow window, int windowWidth, int windowHeight);
+	ConsoleWindow MainMenu(ConsoleWindow window, int windowWidth, int windowHeight);
+
+	std::function<ConsoleWindow(ConsoleWindow, int, int)> m_State;
+
+	void AssignState(std::function<ConsoleWindow(ConsoleWindow, int, int)> newState) { m_State = newState; }
+
+	ConsoleWindow DoState(ConsoleWindow window, int windowWidth, int windowHeight) { return m_State(window, windowWidth, windowHeight); }
 private:
 	bool placed = true;
 	TetriSYDEBlock _BLOCK;
